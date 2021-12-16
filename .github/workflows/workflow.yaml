@@ -16,7 +16,7 @@ jobs:
        uses: actions/setup-node@v2
 
      - name: Install gatsby
-       run: npm install gatsby-cli
+       run: npm i -g gatsby-cli
       
      - name: Install dependencies
        run: yarn
